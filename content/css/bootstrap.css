@@ -4015,7 +4015,6 @@ textarea.input-group-sm > .input-group-btn > .btn {
   position: relative;
   z-index: 1000;
   min-height: 50px;
-  margin-bottom: 20px;
   border: 1px solid transparent;
 }
 
@@ -4182,7 +4181,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 .navbar-brand {
   float: left;
-  padding: 15px 15px;
+  padding: 1px 15px;
   font-size: 18px;
   line-height: 20px;
 }
@@ -4373,8 +4372,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-default {
-  background-color: #f8f8f8;
-  border-color: #e7e7e7;
+  background-color: #fff;
+  border-color: #fff;
 }
 
 .navbar-default .navbar-brand {
@@ -4399,13 +4398,15 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > li > a:focus {
   color: #333333;
   background-color: transparent;
+    border-bottom: 4px solid #4285F4;
+
 }
 
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: #555555;
-  background-color: #e7e7e7;
+  border-bottom: 4px solid #4285F4;
 }
 
 .navbar-default .navbar-nav > .disabled > a,
