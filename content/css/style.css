@@ -29,7 +29,6 @@ body {
   min-height: 100%;
   height: auto !important;
   height: 100%;
-  background: url('http://gdgfresno.com/devfest/images/devfest-wallpaper.png');
   /* Negative indent footer by it's height */
   margin: 0 auto -60px;
 }

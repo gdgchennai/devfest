@@ -14,7 +14,6 @@
     <!-- Bootstrap core CSS -->
     <link href="content/css/bootstrap.css" rel="stylesheet">
     <link href="content/css/style.css" rel="stylesheet">
-    <link rel="stylesheet" href="content/css/odometer-theme-plaza.css" />
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -24,16 +23,19 @@
 
     <!-- Custom styles for this template -->
     <link href="content/css/carousel.css" rel="stylesheet">
-        <script type="text/javascript" src="content/js/odometer.min.js"></script>
-<script type="text/javascript">
-setTimeout(function(){
-    odometer.innerHTML = 2013;
-}, 1000);
-</script>
+
   </head>
 <!-- NAVBAR
 ================================================== -->
   <body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=1397243927160911";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
   <div id="wrap"> 
    
    <div class="navbar-wrapper">
@@ -52,11 +54,12 @@ setTimeout(function(){
             <div class="navbar-collapse collapse pull-right">
               <ul class="nav navbar-nav">
                 <li class="active"><a href="index.html"><font><font>Home</font></font></a></li>
+                <li class=""><a href="register.html"><font><font>Register</font></font></a></li>
                 <li class=""><a href="agenda.html"><font><font>Program</font></font></a></li>
                 <li class=""><a href="speakers.html"><font><font>Speakers</font></font></a></li>
-                <li class=""><a href="arrangement.html"><font><font>Arrangement</font></font></a></li>
+                <li class=""><a href="hackathon.html"><font><font>Hackathon</font></font></a></li>
                 <li class=""><a href="team.html"><font><font>Team</font></font></a></li>
-                <li class=""><a href="gdayx.html"><font><font>GDayX </font></font></a></li>
+                <li class=""><a href="agenda-agenda-gdayx.html"><font><font>GDayX </font></font></a></li>
 
               </ul>
             </div>
@@ -85,7 +88,7 @@ setTimeout(function(){
             
               <h1>Get your DevFest Tickets Here</h1>
               <p>The tickets for DevFest 2013 by GDG Chennai are now on sale! You know how fast you should act now.</p>
-              <p><a class="btn btn-large  btn-primary" href="http://tickets.gdgchennai.com/">Buy Tickets</a></p>
+              <p><a class="btn btn-large  btn-primary" href="#">Opening Soon</a></p>
             </div>
           </div>
         </div>
@@ -123,7 +126,9 @@ setTimeout(function(){
     <!-- Wrap the rest of the page in another container to center all the content. -->
 
     <div class="container marketing">
-
+<!-- Social Shares -->
+<div class="fb-like" data-href="http://www.gdgchennai.com/devfest" data-width="48" data-height="The pixel height of the plugin" data-colorscheme="light" data-layout="button_count" data-action="like" data-show-faces="false" data-send="false"></div>
+<!-- END SOCIAL SHARE -->
 <div class="main_text"><center>
 <h1>November 9 -10</h1>
 <p>With DevFest 2012, we defined the way community led events happened. This year, we're making it even more bigger. With session from a variety of industry experts, fun activities from our amazing organizing team and a brilliant hackathon for a social cause, DevFest 2013 is bigger than ever.</p>
@@ -137,7 +142,7 @@ setTimeout(function(){
           <img class="img-circle" src="content/img/hackathon.png" data-src="holder.js/140x140" alt="Generic placeholder image">
           <h2>Hackathon</h2>
           <p>November 9th: 10 hours of non-stop coding for the most persistent, Redbull loving and for those who love to go on a date with the code and everything in order to show the end of a working prototype application on one of the newest platform from Google.</p>
-          <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
+          <p><a class="btn btn-default" href="hackathon.html">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <img class="img-circle" src="content/img/conference.png" data-src="holder.js/140x140" alt="Generic placeholder image">
@@ -148,9 +153,9 @@ setTimeout(function(){
 
         <div class="col-lg-4">
           <img class="img-circle" src="content/img/sumit.png" data-src="holder.js/140x140" alt="Generic placeholder image">
-          <h2>Summit leaders: GDayX</h2>
+          <h2>GDayX</h2>
           <p>November 9, right from talks by prominent industry experts to mind blowing product demoes. The GDayX by GBG Chennai is your place to be if you are an entrepreneur and a startup leader. Get to know more about GDayX here.</p>
-          <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
+          <p><a class="btn btn-default" href="gdayx.html">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
 
@@ -210,7 +215,7 @@ setTimeout(function(){
                         <li><a href="/speakers"><font><font>Speakers</font></font></a></li>
                         <li><a href="/location"><font><font>Arrangement</font></font></a></li>
                         <li><a href="/team"><font><font>Team</font></font></a></li>
-                        <li><a href="/devfest2012"><font><font>DevFest 2012</font></font></a></li>
+                        <li><a href="/devfest/2012"><font><font>DevFest 2012</font></font></a></li>
                      </ul>
                 </div>
                 <div class="col-xs-6 col-sm-4 col-md-3">
