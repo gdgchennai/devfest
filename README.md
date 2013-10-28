@@ -10,4 +10,4 @@ Contributors
  - Karthik K
  - Jeyanthan I
 
-Theme inspired by getbootstrap.com/examples/carousel/ and GDG Ukraine
+Theme inspired by getbootstrap.com/examples/carousel/ and GDG Ukraine (devfest.gdg.org.ua)
